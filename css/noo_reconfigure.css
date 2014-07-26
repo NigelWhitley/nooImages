@@ -1,0 +1,64 @@
+/* Parameter controls */
+#noo-parameter-controls-wrap { 
+	text-align: center; 
+	margin-top: 0.6em; 
+	margin-bottom: 1em; 
+	display: none; 
+	overflow:auto; 
+	padding: 0.3em;
+}
+#noo-parameter-controls { 
+	font-family: helvetica, verdana, arial, sans-serif; 
+	margin: auto; 
+	border: 1px solid steelblue; 
+	width: 600px; 
+	overflow: auto;
+}
+#noo-parameter-controls input:invalid { 
+	border-color: red;
+}
+#noo-parameter-controls input.noo_invalid { 
+	border-color: red;
+}
+#noo-parameter-controls label { font-size: 0.8em; }
+#noo-parameter-controls label { 
+	color: aliceblue; 
+	background-color: steelblue; 
+	margin-right: 0.3em; 
+	box-shadow: 2px 2px 2px slategrey; }
+#noo-parameter-controls div { margin-bottom: 5px; }
+#noo-parameter-controls .noo-button-text { color: navy; }
+#parameter-info { margin-bottom: 10px; }
+#parameter-info p { position: relative; text-align: center; font-size: 0.8em; font-style: italic; }
+#try-parameters { position: relative; }
+#try-parameters .noo-button-text { color: navy; }
+.noo-text-input { 
+	background-color: aliceblue; 
+	color: steelblue; 
+	border:1px solid lightgrey; 
+	-webkit-box-shadow: 2px 2px 2px slategrey; 
+	box-shadow: 2px 2px 2px slategrey; 
+}
+.noo-text-input:hover { border:1px solid slategrey; box-shadow: 2px 2px 2px darkslategrey; }
+.noo-text-input:focus { color: navy; border:1px solid navy; }
+
+#size-controls { text-align: center; margin: auto; position: relative; }
+#thumbnail-height { position: absolute; left: 0.3em; }
+#thumbnail-width { position: relative;  }
+#thumbnail-margin { position: absolute; right: 0.3em; }
+
+#colour-controls { text-align: center; margin: auto; position: relative; }
+#thumbnail-frame { position: absolute; left: 0.3em; }
+#thumbnail-trim { position: absolute; right: 0.3em; }
+
+#display-choice { position: relative; text-align: left; margin: auto; }
+#slideshow-choice { position: absolute; right: 0.3em;  }
+/*#file-pattern { position: absolute; right: 0px; top: 0px; width: 40%; }*/
+#file-patterns { position: relative; margin-top: 0px; float: left; }
+#file-patterns-group { padding-right: 1em; overflow-y:auto; }
+#file-patterns-list { position: relative; text-align: left; margin-left: 0px; margin-top: 0px; padding-left: 0.3em; }
+#file-patterns-list li { position: relative; margin-left: 0px; margin-bottom: 0px; list-style: none; }
+/* #file-pattern-set .file-patterns { float:right; margin-right: 5px; margin-bottom: 5px; } */
+#file-patterns-list .file-pattern { margin-left: 0px; }
+#file-patterns label { margin-left: 0.3em; }
+

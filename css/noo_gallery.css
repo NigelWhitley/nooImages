@@ -1,0 +1,4 @@
+/* Specific to this app */
+#noo-gallery-view { overflow-x: auto; width: 100%; margin: 0 auto; border-width: 0; }
+.noo-item-before { width: 100%; margin: 0; }
+.noo-item-after { width: 100%; margin: 0; }

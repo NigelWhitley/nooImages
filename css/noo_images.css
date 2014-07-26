@@ -1,0 +1,44 @@
+body { 
+	background-color: aliceblue; 
+	color: steelblue; 
+	font-family: verdana, helvetica, arial, sans-serif; 
+	font-size: 100%; 
+	margin: 0; 
+	padding: 0; }
+/* Specific to this app */
+#noo-prologue { margin: auto; text-align: center; font-family: palatino, helvetica, arial, sans-serif; }
+#noo-prologue h1 { margin: auto; text-align: center; background-color: steelblue; color: aliceblue; }
+#noo-epilogue { margin: auto; text-align: center; }
+#noo-copyright-box { 
+	position: fixed; 
+	bottom: 0; 
+	right: 0; 
+	left: 0; 
+	text-align: center; 
+	font-size: 0.6em; 
+	background-color: steelblue; 
+	color: aliceblue; 
+}
+#noo-copyright-notice { margin: auto; }
+
+/* Highlighted single image */
+#noo-highlighted-image { text-align: center; margin: auto; font-size: 0.8em; display: none; position:relative; }
+/* Use absolute centring for image */
+#noo-content-view { margin: auto; }
+
+.change-image { opacity:0; margin: auto; z-index:100; position: absolute; top:0; bottom:0; top:0; width:50%; height:100%; }
+.change-image.previous-image { left:0; }
+.change-image.next-image { right:0; }
+.change-image img { position: absolute; top:0; bottom:0; margin: auto; }
+.change-image.previous-image img { left:0; }
+.change-image.next-image img { right:0; }
+.change-image:hover { opacity:1; }
+
+/* Instructions for use */
+#noo-instructions { text-align: center; margin: auto; }
+#noo-instructions .noo-button-text { color: navy; }
+
+/* Main controls for configuration and for the slide show */
+#noo-main-controls { text-align: center; margin: auto; }
+#noo-main-controls .noo-button-text { color: navy; }
+
